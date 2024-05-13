@@ -23,6 +23,13 @@ def load_words(data_file_name):
         l = json.load(f)
     return l
 
+def write_to_file(d, s, pos):
+    d.write(s)
+    d.write("\t")
+    d.write(pos)
+    d.write("\n")
+    return
+
 def getBasicSentences(json_sentences, data_file_name):
     not_found = set()
     """Read through json objects for example basic sentences"""
@@ -30,65 +37,63 @@ def getBasicSentences(json_sentences, data_file_name):
         for w in json_sentences:
             found_word = False
             try:
+                pos = w[0]['fl']
                 s = w[0]['def'][0]['sseq'][0][2][1]['dt'][1][1][1]['t']
-                d.write(s)
-                d.write("\n")
+                write_to_file(d, s, pos)
                 found_word = True
             except:
                 pass
             try:
+                pos = w[0]['fl']
                 s = w[0]['def'][0]['sseq'][0][2][1]['dt'][1][1][1]['t']
-                d.write(s)
-                d.write("\n")
+                write_to_file(d, s, pos)
                 found_word = True
             except:
                 pass
             try:
+                pos = w[0]['fl']
                 s = w[0]['def'][0]['sseq'][0][1][1]['dt'][1][1][1]['t']
-                d.write(s)
-                d.write("\n")
+                write_to_file(d, s, pos)
                 found_word = True
             except:
                 pass
             try:
+                pos = w[0]['fl']
                 s = w[0]['def'][0]['sseq'][0][1][1]['dt'][1][1][2]['t']
-                d.write(s)
-                d.write("\n")
+                write_to_file(d, s, pos)
                 found_word = True
             except:
                 pass
             try:
+                pos = w[0]['fl']
                 s = w[0]["def"][0]["sseq"][0][0][1]["dt"][1][1][0]['t']
-                d.write(s)
-                d.write("\n")
+                write_to_file(d, s, pos)
                 found_word = True
             except:
                 pass
             try:
+                pos = w[0]['fl']
                 s = w[0]["def"][0]["sseq"][1][0][1]["dt"][1][1][0]['t']
-                d.write(s)
-                d.write("\n")
+                write_to_file(d, s, pos)
                 found_word = True
             except:
                 pass
             try:
+                pos = w[0]['fl']
                 s = w[0]['def'][0]['sseq'][0][0][1]['sdsense']['dt'][1][1][0]['t']
-                d.write(s)
-                d.write("\n")
+                write_to_file(d, s, pos)
                 found_word = True
             except:
                 pass
             try:
                 s = w[0]['def'][0]['sseq'][0][0][1]['dt'][1][1][2]['t']
-                d.write(s)
-                d.write("\n")
                 found_word = True
             except:
                 pass
             try:
+                pos = w[0]['fl']
                 s = w[0]['def'][0]['sseq'][0][0][1]['dt'][1][1][1]['t']
-                d.write(s)
-                d.write("\n")
+                write_to_file(d, s, pos)
                 found_word = True
             except:
                 pass
@@ -109,12 +114,8 @@ def check_for_sentences(input_file):
     i = 0
     for w in json_sentences:
         try:
-            print(w[0]['meta']['id'])
-            print(w[0]['syns'][0]['pt'][1][1][0]['t'])
-            print(w[0]['syns'][0]['pt'][3][1][0]['t'])
-            print(w[0]['syns'][0]['pt'][5][1][0]['t'])
-            return
-            print("\n")
+            print(w[0]['fl'])
+            
         except:
             print("Not found")
             pass
@@ -143,6 +144,7 @@ def getAllBasicSentences():
 def main():
     input_files = ["JSON_obj_MW/data_0-300.json", "JSON_obj_MW/data_301-700.json", "JSON_obj_MW/data_701-1000.json", "JSON_obj_MW/data_1001-1607.json"]
     getAllBasicSentences()
+    #check_for_sentences(input_files[0])
     return
     
 if __name__=="__main__": 
