@@ -1,9 +1,7 @@
-
-import sys
-import requests
-import json
+import nltk
 import os
 import operator
+import ssl
 
 
 def formatSentences(input, output):
@@ -24,12 +22,13 @@ def formatSentences(input, output):
                 try:
                     word = split_sentence[1]
                     count = split_sentence[0]
-                    pos = pos_split[1]
-                    pos = format_pos[pos]
+                    pos_1 = pos_split[1]
+                    pos_1 = format_pos[pos_1]
+                    pos_2 = nltk.pos_tag([word])[0][1]
                     index = operator.countOf(count, " ")
                     #print("0", line.replace("*", ""), str(index))
                     sentence = pos_split[0].replace("*", "")
-                    write_line = "MW" + "\t"+  "0" + "\t" + sentence + "\t" + pos + "\t" + str(index) + "\n"
+                    write_line = "MW" + "\t"+  "0" + "\t" + sentence + "\t" + pos_1 + "\t"+ pos_2 + "\t" + str(index) + "\n"
                     o.write(write_line)
                 except:
                     print("error")
