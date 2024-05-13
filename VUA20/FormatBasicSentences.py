@@ -8,7 +8,7 @@ def formatSentences(input, output):
     """ Saves metaphor bool, sentence, w_index in standard tsv """
     replace_chars = ["{wi}", "{/wi}", "{it}", "{/it}", "{phrase}", "{/phrase}"]
     remove_chars = ["{ldquo}", "{/ldquo}", "{rdquo}", "{/rdquo}", "\n", "{gloss}=", "{\gloss}", "{d_link|"]
-    format_pos = {"verb":"VERB", "adjective":"ADJ", "preposition":"ADP	IN", "noun":"NOUN", "adjective suffix":"ADJ", "adverb":"ADV", "phrasal verb":"VERB"}
+    format_pos = {"verb":"VERB", "adjective":"ADJ", "preposition":"ADP", "noun":"NOUN", "adjective suffix":"ADJ", "adverb":"ADV", "phrasal verb":"VERB"}
     with open(input, "r") as i:
         with open(output, "w+") as o:
             for line in i:

@@ -431,7 +431,7 @@ MW	0	a borderline state between waking and sleeping	ADJ	NN	1
 MW	0	a borderline town	ADJ	NN	1
 MW	0	an unusual juxtaposition of colors	NOUN	NN	2
 MW	0	contrasting shapes placed in juxtaposition to each other	NOUN	NN	4
-MW	0	free trade versus protection	ADP	IN	NN	2
+MW	0	free trade versus protection	ADP	NN	2
 MW	0	a dictator who banishes anyone who opposes him	VERB	NNS	3
 MW	0	He was banished from court.	VERB	VBN	2
 MW	0	granite stones harsh with lichen	ADJ	NN	2
@@ -841,7 +841,7 @@ MW	0	a borderline state between waking and sleeping	ADJ	NN	1
 MW	0	a borderline town	ADJ	NN	1
 MW	0	an unusual juxtaposition of colors	NOUN	NN	2
 MW	0	contrasting shapes placed in juxtaposition to each other	NOUN	NN	4
-MW	0	free trade versus protection	ADP	IN	NN	2
+MW	0	free trade versus protection	ADP	NN	2
 MW	0	a dictator who banishes anyone who opposes him	VERB	NNS	3
 MW	0	He was banished from court.	VERB	VBN	2
 MW	0	granite stones harsh with lichen	ADJ	NN	2
@@ -1495,7 +1495,7 @@ MW	0	struggled through the high grass	VERB	VBN	0
 MW	0	impostors that haunt the official in foreign ports	VERB	NN	2
 MW	0	spends a lot of time haunting bookstores	VERB	VBG	5
 MW	0	problems we ignore now will come back to haunt us	VERB	NN	8
-MW	0	… they knew that, barring a miracle, they would never be able to save the large cash outlay required …	ADP	IN	VBG	4
+MW	0	… they knew that, barring a miracle, they would never be able to save the large cash outlay required …	ADP	VBG	4
 MW	0	an alien environment	ADJ	NN	1
 MW	0	ideas alien to democracy	ADJ	NN	1
 MW	0	crinkling silks	VERB	VBG	0
@@ -1901,8 +1901,8 @@ MW	0	irritated eyes	ADJ	JJ	0
 MW	0	doesn't recall dreaming last night	VERB	VBG	2
 MW	0	dreaming of a better future	VERB	VBG	0
 MW	0	dream of departed loved ones	VERB	NN	0
-MW	0	hidden among the trees	ADP	IN	IN	1
-MW	0	living among artists	ADP	IN	IN	1
+MW	0	hidden among the trees	ADP	IN	1
+MW	0	living among artists	ADP	IN	1
 MW	0	tie a fishing fly	VERB	NN	0
 MW	0	tie a fishing fly	VERB	NN	0
 MW	0	clear the water by filtering	VERB	JJ	0
