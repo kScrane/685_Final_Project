@@ -1,2 +1,3 @@
 #Ignore files in DataSources
 DataSources/
+VUA20-MW-Results/Results_from_first_MW_run/training_args.bin

@@ -94,6 +94,7 @@ def getBasicSentences(json_sentences, data_file_name):
                 pass
             if found_word == False:
                 try:
+                    print(w[0]["meta"]["id"].split(":")[0])
                     not_found.add(w[0]["meta"]["id"].split(":")[0])
                 except:
                     print(w)
@@ -103,18 +104,19 @@ def getBasicSentences(json_sentences, data_file_name):
             n.write(f)
             n.write("\n")
 
-def getBasicSentences2(json_sentences, data_file_name):
-    input_files = ["VUA20/JSON_obj_MW/data_0-300.json", "VUA20/JSON_obj_MW/data_301-700.json", "VUA20/JSON_obj_MW/data_701-1000.json", "VUA20/JSON_obj_MW/data_1001-1607.json"]
-    json_sentences = load_words(input_files[0])
+def check_for_sentences(input_file):
+    json_sentences = load_words(input_file)
     i = 0
     for w in json_sentences:
         try:
             print(w[0]['meta']['id'])
-            print(w[0]['def'][0]['sseq'][0][0][1]['dt'][1][1][0]['t'])#[0]['sseq'][1][0][1]['dt'][1]["vis"]["t"])
-            
-            
+            print(w[0]['syns'][0]['pt'][1][1][0]['t'])
+            print(w[0]['syns'][0]['pt'][3][1][0]['t'])
+            print(w[0]['syns'][0]['pt'][5][1][0]['t'])
+            return
             print("\n")
         except:
+            print("Not found")
             pass
 
 def getAllBasicSentences():
@@ -122,11 +124,11 @@ def getAllBasicSentences():
     Loops through all JSON files w/ merriam webster results
     Keeps sentences with literal uses of words
     """
-    input_files = ["VUA20/JSON_obj_MW/data_0-300.json", "VUA20/JSON_obj_MW/data_301-700.json", "VUA20/JSON_obj_MW/data_701-1000.json", "VUA20/JSON_obj_MW/data_1001-1607.json"]
-    output_name = "VUA20/BasicSentences/BasicSentences_0-1607.txt"
-    with open (output_name, "w"):
+    input_files = ["JSON_obj_MW/data_0-300.json", "JSON_obj_MW/data_301-700.json", "JSON_obj_MW/data_701-1000.json", "JSON_obj_MW/data_1001-1607.json"]
+    output_name = "BasicSentences_0-1607.txt"
+    with open (output_name, "w+"):
         pass
-    with open ("not_found.txt", "w"):
+    with open ("not_found.txt", "w+"):
         pass
 
     for i in input_files:
@@ -139,6 +141,7 @@ def getAllBasicSentences():
     
 
 def main():
+    input_files = ["JSON_obj_MW/data_0-300.json", "JSON_obj_MW/data_301-700.json", "JSON_obj_MW/data_701-1000.json", "JSON_obj_MW/data_1001-1607.json"]
     getAllBasicSentences()
     return
     

@@ -7,7 +7,7 @@ import operator
 
 
 def formatSentences(input, output):
-    """Todo: list word index"""
+    """ Saves metaphor bool, sentence, w_index in standard tsv """
     replace_chars = ["{wi}", "{/wi}", "{it}", "{/it}"]
     remove_chars = ["{ldquo}", "{/ldquo}", "{rdquo}", "{/rdquo}", "\n", "{gloss}=", "{\gloss}", "{d_link|"]
     with open(input, "r") as i:

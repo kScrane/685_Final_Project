@@ -273,6 +273,7 @@ bushes {wi}sprawling{/wi} along the road
 an actor currently {wi}starring{/wi} in a hit Broadway show
 In the fall of 1925, Elkins {wi}starred{/wi} on the gridiron …
 Tequila and blood oranges {wi}star{/wi} in this Margarita, which gets a spicy kick from homemade jalapeño syrup.
+She had a {phrase}starring role{/phrase} in his latest film.
 {wi}troubled{/wi} feelings about the decision
 our {wi}troubled{/wi} cities
 The composer {it}orchestrated{/it} the music for the symphony orchestra.
@@ -676,12 +677,14 @@ the balloon {wi}burst{/wi}
 my heart will {wi}burst{/wi}
 the pipes {wi}burst{/wi}
 {wi}volunteered{/wi} to host the meeting
+the {it}Iliad{/it} and the {it}Odyssey{/it} are {wi}epics{/wi}
 a region that {wi}marches{/wi} with Canada in the north and the Pacific in the west
 a {wi}smart{/wi} young student
 a {wi}smart{/wi} comedy/sitcom
 That wasn't a very {wi}smart{/wi} thing to do.
 a {wi}smart{/wi} decision/investment/idea
 … crops are grown in the resulting field for a year or a few years until the soil is {wi}exhausted{/wi}, and then the field is abandoned …
+I mean I was just {wi}exhausted{/wi}, totally {wi}exhausted{/wi}. I could barely walk up a flight of stairs without panting and wheezing.
 a {wi}blinding{/wi} light
 a runner with {wi}blinding{/wi} speed
 a {wi}blinding{/wi} headache {gloss}=an extremely painful headache{/gloss}
@@ -1104,12 +1107,14 @@ the balloon {wi}burst{/wi}
 my heart will {wi}burst{/wi}
 the pipes {wi}burst{/wi}
 {wi}volunteered{/wi} to host the meeting
+the {it}Iliad{/it} and the {it}Odyssey{/it} are {wi}epics{/wi}
 a region that {wi}marches{/wi} with Canada in the north and the Pacific in the west
 a {wi}smart{/wi} young student
 a {wi}smart{/wi} comedy/sitcom
 That wasn't a very {wi}smart{/wi} thing to do.
 a {wi}smart{/wi} decision/investment/idea
 … crops are grown in the resulting field for a year or a few years until the soil is {wi}exhausted{/wi}, and then the field is abandoned …
+I mean I was just {wi}exhausted{/wi}, totally {wi}exhausted{/wi}. I could barely walk up a flight of stairs without panting and wheezing.
 a {wi}blinding{/wi} light
 a runner with {wi}blinding{/wi} speed
 a {wi}blinding{/wi} headache {gloss}=an extremely painful headache{/gloss}
@@ -1160,6 +1165,7 @@ an ax {wi}blunted{/wi} from use
 {wi}enact{/wi} a bill
 an {wi}individual{/wi} effort
 an {wi}individual{/wi} style
+In its ruling the Court also criticized contemporary interrogation practices, finding in effect that a psychological {wi}third degree{/wi} had replaced the physical {wi}third degree{/wi}.
 {wi}second-degree{/wi} assault/murder
 a {wi}second-degree{/wi} concussion
 a pair of doves {wi}billing{/wi}
@@ -1431,6 +1437,7 @@ territorial {wi}expansion{/wi}
 a {it}receding{/it} hairline
 a {it}receding{/it} deficit
 the {wi}interplay{/wi} of opposing forces
+{wi}Drifting{/wi} began in the early 1980s with a Japanese race-car driver named Keiichi Tsuchiya. Mr. Tsuchiya, who was in his 20s, started experimenting with {wi}drifting{/wi} and practiced it on curvy roads deep in the mountains near his hometown. He says he was perfecting his ability to not spin out on curves in car races.
 {wi}Drifting{/wi} has nothing to do with racing. There's no checkered flag. It's more like figure skating than speed skating, with a three-judge panel awarding points based on speed, angle of attack and style. They take points away for going off course, stalling or running into course markers—including walls. And for driving straight: The goal is to control the car as it slides sideways around turns, as if on ice, at full throttle.
 in the {wi}midst{/wi} of the forest
 a traitor in our {wi}midst{/wi}
@@ -1571,6 +1578,8 @@ had {wi}grandiose{/wi} plans for the city
 a {wi}stiff{/wi} collar
 {it}repelled{/it} the insinuation
 a {it}wall-mounted{/it} television set
+{wi}well{/wi}-{wi}fed{/wi} pets
+" … having children who are {wi}well{/wi}-{wi}fed{/wi} and not hungry makes a difference in their individual performance … "
 a child needing human {wi}warmth{/wi} and family life
 an {wi}undemanding{/wi} job
 an {wi}undemanding{/wi} boss
@@ -1676,6 +1685,7 @@ the crowd looked on in {wi}helpless{/wi} horror
 think carefully before {wi}answering{/wi}
 {wi}answer{/wi} for a debt
 a lane marked off by {wi}dashed{/wi} lines
+{ldquo}How shall we cross the river?{rdquo} asked Dorothy. {ldquo}That is easily done,{rdquo} replied the Scarecrow. {ldquo}The Tin Woodman must build us a {wi}raft{/wi}, so we can float to the other side.{rdquo} So the Woodman took his axe and began to chop down small trees to make a {wi}raft{/wi} …
 {wi}rafts{/wi} of kelp
 Finally, the three astronauts, wearing their isolation garments, clambered out of the spacecraft into a rubber {wi}raft{/wi}.
 In addition to a gorgeous 400' long sandy beach with a swim {wi}raft{/wi}, there are 44 boat docks which are licensed to individual … homeowners.
@@ -1820,6 +1830,7 @@ the point at which the two surfaces {wi}contact{/wi}
 {wi}poured{/wi} money into the project
 {wi}cater{/wi} for a large party
 {wi}catering{/wi} to middle-class tastes
+a {wi}commentary{/wi} on Dante's {it}Divine Comedy{/it}
 The {wi}orbit{/wi} encloses and protects the eye and its appendages.
 an {wi}enterprising{/wi} young reporter
 They have been {wi}avoiding{/wi} me.

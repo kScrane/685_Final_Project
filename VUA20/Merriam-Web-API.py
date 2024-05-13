@@ -2,9 +2,10 @@
 import sys
 import requests
 import json
-"""Make calls to Merriam-Webster API to get literal sentences
-Will make calls for each word found with metaphorical sentences but
-no literal sentences"""
+"""Make calls to Merriam-Webster API given list of target words
+Requires MW API Key
+"""
+
 def parse_json_obj():
     with open('data.json', 'r') as i:
         with open('MW-sentences', 'a') as o:
@@ -71,11 +72,12 @@ def main():
     """Pass API key as argument"""
     arguments = sys.argv
     key = arguments[1]
-    #Have to re-run 300-700
+
+    #min = where to start calling on target words
     min = 0
     max = 300
 
-    word_list = get_words("counts_of_metaphors_train.tsv", min, max)
+    word_list = get_words("words_w_no_basic_def.tsv", min, max)
     data_file_name = "data_" + str(min+1) + "-" + str(max) + ".json" 
     print(data_file_name)
     
